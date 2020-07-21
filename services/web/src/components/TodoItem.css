@@ -1,0 +1,45 @@
+.movie {
+    padding: 0.5em;
+    margin: 0;
+    cursor: pointer;
+    transition: 350ms;
+    background: #525252;
+    border: solid #525252 1px;
+}
+
+.movie:hover {
+    border: solid 1px #313131;
+}
+
+li:first-of-type {
+    border-radius: 7.5px 7.5px 0 0;
+}
+
+li:last-of-type {
+    border-radius: 0 0 7.5px 7.5px;
+}
+
+li:only-child {
+    border-radius: 7.5px 7.5px 7.5px 7.5px;
+}
+
+#checked {
+    border-left: 10px solid #212121;
+}
+
+.deleteBtn {
+    float: right;
+    cursor: pointer;
+    transition: 350ms;
+    border-width: 1px 0.5px 1px 0.5px;
+    border: solid #525252 0.5px;
+    text-align: center;
+    color: white;
+    background: none;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+    color: #ca3e47;
+    transform: scale(1.25);
+}

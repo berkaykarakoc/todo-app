@@ -1,0 +1,8 @@
+.movieList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.movieList:empty {
+    border: none;
+}
