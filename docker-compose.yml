@@ -1,4 +1,5 @@
-version: "2"
+version: "3.7"
+
 services: 
   mongo: 
     image: mongo
@@ -7,25 +8,21 @@ services:
     volumes:
       - todo-data:/data/db
     env_file: .env
-    container_name: todo-db
     networks:
       - todo-network
   api:
-    build: ./services/api
+    build: karakocberkay/todo_api
     ports:
       - 3001:3001
     env_file: .env
-    container_name: todo-api
     depends_on:
       - mongo
     networks:
       - todo-network
-
   web:
-    build: ./services/web
+    build: karakocberkay/todo_web
     ports:
       - 3000:3000
-    container_name: todo-web
     stdin_open: true
     links:
       - api
@@ -37,4 +34,3 @@ volumes:
 
 networks:
   todo-network:
-    driver: bridge
