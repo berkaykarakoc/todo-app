@@ -4,7 +4,8 @@ Todo App is a web app built with [React.js](https://reactjs.org/) + [Express.js]
 
 ## Installation
 
-**To run this project, [Docker](https://www.docker.com/) should be installed in your system.**
+**To run this project, [Docker](https://www.docker.com/) should be installed and running in your system.**
+**This steps must be run on your systems terminal/CMD**
 
 1. First, you need to clone the project
 ```
