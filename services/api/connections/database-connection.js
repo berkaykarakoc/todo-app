@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(`mongodb://todo-db:27017/${process.env.DEV_DATABASE}`, {
+mongoose.connect(`mongodb://localhost:27017/${process.env.DEV_DATABASE}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });

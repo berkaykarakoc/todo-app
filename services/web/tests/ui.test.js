@@ -21,6 +21,9 @@ beforeSuite(async () => {
 });
 
 afterSuite(async () => {
+    await click(text("X", toRightOf(text("buy some milk"))));
+    await click(text("X", toRightOf(text("enjoy the assignment"))));
+    await click(text("X", toRightOf(text("drink water"))));
     await closeBrowser();
 });
 

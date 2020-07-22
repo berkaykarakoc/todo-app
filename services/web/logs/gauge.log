@@ -1579,3 +1579,241 @@ Total time taken: 4.746s
 22-07-2020 16:12:55.317 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
 22-07-2020 16:12:55.317 [Gauge] [INFO] 
 Total time taken: 4.486s
+22-07-2020 16:24:05.871 [Gauge] [DEBUG] Created gauge_screenshots_dir at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\.gauge\screenshots
+22-07-2020 16:24:05.874 [Gauge] [DEBUG] Plugin js is already installed.
+22-07-2020 16:24:05.875 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-07-2020 16:24:05.875 [Gauge] [DEBUG] Parsing started.
+22-07-2020 16:24:05.875 [Gauge] [DEBUG] Started concepts parsing.
+22-07-2020 16:24:06.206 [Gauge] [DEBUG] Checking updates...
+22-07-2020 16:24:06.208 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:24:06.711 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:24:06.866 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:24:08.317 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-07-2020 16:24:08.317 [Gauge] [DEBUG] Started specifications parsing.
+22-07-2020 16:24:08.317 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-07-2020 16:24:08.317 [Gauge] [DEBUG] Parsing completed.
+22-07-2020 16:24:08.888 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55081
+22-07-2020 16:24:08.892 [Gauge] [DEBUG] Successfully made the connection with runner with port: 55081
+22-07-2020 16:24:08.892 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:24:08.920 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:24:08.920 [Gauge] [DEBUG] Run started
+22-07-2020 16:24:08.922 [Gauge] [DEBUG] Starting Html Report plugin
+22-07-2020 16:24:08.946 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55084
+22-07-2020 16:24:08.947 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55084
+22-07-2020 16:24:08.947 [Gauge] [DEBUG] Initialising suite data store.
+22-07-2020 16:24:10.221 [js] [ERROR] Trace: TypeError: init is not a function
+22-07-2020 16:24:10.221 [js] [ERROR] at loadPlugin (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2739:7)
+22-07-2020 16:24:10.221 [js] [ERROR] at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2760:3
+22-07-2020 16:24:10.221 [js] [ERROR] at Array.forEach (<anonymous>)
+22-07-2020 16:24:10.221 [js] [ERROR] at Object.<anonymous> (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2749:14)
+22-07-2020 16:24:10.221 [js] [ERROR] at Module._compile (internal/modules/cjs/loader.js:1138:30)
+22-07-2020 16:24:10.221 [js] [ERROR] at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+22-07-2020 16:24:10.221 [js] [ERROR] at Module.load (internal/modules/cjs/loader.js:986:32)
+22-07-2020 16:24:10.221 [js] [ERROR] at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+22-07-2020 16:24:10.221 [js] [ERROR] at Module.require (internal/modules/cjs/loader.js:1026:19)
+22-07-2020 16:24:10.221 [js] [ERROR] at require (internal/modules/cjs/helpers.js:72:18)
+22-07-2020 16:24:10.221 [js] [ERROR] at loadPlugin (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2743:13)
+22-07-2020 16:24:10.221 [js] [ERROR] at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2760:3
+22-07-2020 16:24:10.221 [js] [ERROR] at Array.forEach (<anonymous>)
+22-07-2020 16:24:10.221 [js] [ERROR] at Object.<anonymous> (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2749:14)
+22-07-2020 16:24:10.221 [js] [ERROR] at Module._compile (internal/modules/cjs/loader.js:1138:30)
+22-07-2020 16:24:10.221 [js] [ERROR] at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+22-07-2020 16:24:10.221 [js] [ERROR] at Module.load (internal/modules/cjs/loader.js:986:32)
+22-07-2020 16:24:10.221 [js] [ERROR] at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+22-07-2020 16:24:10.221 [js] [ERROR] at Module.require (internal/modules/cjs/loader.js:1026:19)
+22-07-2020 16:24:10.221 [js] [ERROR] at require (internal/modules/cjs/helpers.js:72:18)
+22-07-2020 16:24:11.275 [Gauge] [INFO] # Testing Todo Frontend
+22-07-2020 16:24:11.286 [Gauge] [INFO] ## Test functionalities
+22-07-2020 16:24:11.294 [Gauge] [DEBUG] * Add element to the todo list
+22-07-2020 16:24:31.569 [Gauge] [ERROR] 
+Failed Step: Add element to the todo list
+22-07-2020 16:24:31.569 [Gauge] [ERROR] Specification: specs\example.spec:5
+22-07-2020 16:24:31.569 [Gauge] [ERROR] Error Message: Error: Timed out
+22-07-2020 16:24:31.569 [Gauge] [ERROR] Stacktrace: 
+Error: Timed out
+    at Timeout.<anonymous> (C:\Users\BerkayKarakoc\AppData\Roaming\gauge\plugins\js\2.3.12\src\test.js:43:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+22-07-2020 16:24:41.897 [Gauge] [ERROR] Error Message: Error: Element with text X  and To right of Element with text buy some milk  not found
+22-07-2020 16:24:41.897 [Gauge] [ERROR] Stacktrace: 
+Error: Element with text X  and To right of Element with text buy some milk  not found
+    at findElements (node_modules\taiko\lib\elementSearch.js:193:11)
+    at async _click (node_modules\taiko\lib\taiko.js:1074:44)
+    at async click (node_modules\taiko\lib\taiko.js:1158:5)
+    at async module.exports.<computed> (node_modules\taiko\lib\taiko.js:3017:14)
+    at async Object.<anonymous> (tests\ui.test.js:24:5)
+22-07-2020 16:24:41.898 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-07-2020 16:24:41.927 [html-report] [INFO] Successfully generated html-report to => c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\reports\html-report\index.html
+22-07-2020 16:24:41.928 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\BerkayKarakoc\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+22-07-2020 16:24:41.928 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-07-2020 16:24:42.134 [Gauge] [DEBUG] Runner with PID:17628 has exited
+22-07-2020 16:24:42.134 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+22-07-2020 16:24:42.134 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22-07-2020 16:24:42.134 [Gauge] [INFO] 
+Total time taken: 32.977s
+22-07-2020 16:26:12.062 [Gauge] [DEBUG] Created gauge_screenshots_dir at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\.gauge\screenshots
+22-07-2020 16:26:12.066 [Gauge] [DEBUG] Plugin js is already installed.
+22-07-2020 16:26:12.067 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-07-2020 16:26:12.068 [Gauge] [DEBUG] Parsing started.
+22-07-2020 16:26:12.068 [Gauge] [DEBUG] Started concepts parsing.
+22-07-2020 16:26:12.404 [Gauge] [DEBUG] Checking updates...
+22-07-2020 16:26:12.406 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:26:13.104 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:26:13.636 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:26:14.556 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-07-2020 16:26:14.556 [Gauge] [DEBUG] Started specifications parsing.
+22-07-2020 16:26:14.556 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-07-2020 16:26:14.556 [Gauge] [DEBUG] Parsing completed.
+22-07-2020 16:26:15.171 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55148
+22-07-2020 16:26:15.174 [Gauge] [DEBUG] Successfully made the connection with runner with port: 55148
+22-07-2020 16:26:15.174 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:26:15.199 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:26:15.200 [Gauge] [DEBUG] Run started
+22-07-2020 16:26:15.201 [Gauge] [DEBUG] Starting Html Report plugin
+22-07-2020 16:26:15.225 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55151
+22-07-2020 16:26:15.227 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55151
+22-07-2020 16:26:15.227 [Gauge] [DEBUG] Initialising suite data store.
+22-07-2020 16:26:16.640 [js] [ERROR] Trace: TypeError: init is not a function
+22-07-2020 16:26:16.640 [js] [ERROR] at loadPlugin (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2739:7)
+22-07-2020 16:26:16.640 [js] [ERROR] at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2760:3
+22-07-2020 16:26:16.640 [js] [ERROR] at Array.forEach (<anonymous>)
+22-07-2020 16:26:16.640 [js] [ERROR] at Object.<anonymous> (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2749:14)
+22-07-2020 16:26:16.640 [js] [ERROR] at Module._compile (internal/modules/cjs/loader.js:1138:30)
+22-07-2020 16:26:16.640 [js] [ERROR] at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+22-07-2020 16:26:16.640 [js] [ERROR] at Module.load (internal/modules/cjs/loader.js:986:32)
+22-07-2020 16:26:16.640 [js] [ERROR] at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+22-07-2020 16:26:16.640 [js] [ERROR] at Module.require (internal/modules/cjs/loader.js:1026:19)
+22-07-2020 16:26:16.640 [js] [ERROR] at require (internal/modules/cjs/helpers.js:72:18)
+22-07-2020 16:26:16.640 [js] [ERROR] at loadPlugin (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2743:13)
+22-07-2020 16:26:16.640 [js] [ERROR] at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2760:3
+22-07-2020 16:26:16.640 [js] [ERROR] at Array.forEach (<anonymous>)
+22-07-2020 16:26:16.640 [js] [ERROR] at Object.<anonymous> (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2749:14)
+22-07-2020 16:26:16.640 [js] [ERROR] at Module._compile (internal/modules/cjs/loader.js:1138:30)
+22-07-2020 16:26:16.640 [js] [ERROR] at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+22-07-2020 16:26:16.640 [js] [ERROR] at Module.load (internal/modules/cjs/loader.js:986:32)
+22-07-2020 16:26:16.640 [js] [ERROR] at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+22-07-2020 16:26:16.640 [js] [ERROR] at Module.require (internal/modules/cjs/loader.js:1026:19)
+22-07-2020 16:26:16.640 [js] [ERROR] at require (internal/modules/cjs/helpers.js:72:18)
+22-07-2020 16:26:17.789 [Gauge] [INFO] # Testing Todo Frontend
+22-07-2020 16:26:17.799 [Gauge] [INFO] ## Test functionalities
+22-07-2020 16:26:17.808 [Gauge] [DEBUG] * Add element to the todo list
+22-07-2020 16:26:36.583 [Gauge] [DEBUG] Created gauge_screenshots_dir at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\.gauge\screenshots
+22-07-2020 16:26:36.585 [Gauge] [DEBUG] Plugin js is already installed.
+22-07-2020 16:26:36.585 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-07-2020 16:26:36.586 [Gauge] [DEBUG] Parsing started.
+22-07-2020 16:26:36.586 [Gauge] [DEBUG] Started concepts parsing.
+22-07-2020 16:26:36.915 [Gauge] [DEBUG] Checking updates...
+22-07-2020 16:26:36.917 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:26:37.392 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:26:37.549 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:26:39.220 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-07-2020 16:26:39.220 [Gauge] [DEBUG] Started specifications parsing.
+22-07-2020 16:26:39.221 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-07-2020 16:26:39.221 [Gauge] [DEBUG] Parsing completed.
+22-07-2020 16:26:39.844 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55186
+22-07-2020 16:26:39.847 [Gauge] [DEBUG] Successfully made the connection with runner with port: 55186
+22-07-2020 16:26:39.847 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:26:39.871 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:26:39.871 [Gauge] [DEBUG] Run started
+22-07-2020 16:26:39.873 [Gauge] [DEBUG] Starting Html Report plugin
+22-07-2020 16:26:39.898 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55189
+22-07-2020 16:26:39.899 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55189
+22-07-2020 16:26:39.900 [Gauge] [DEBUG] Initialising suite data store.
+22-07-2020 16:26:41.225 [js] [ERROR] Trace: TypeError: init is not a function
+22-07-2020 16:26:41.225 [js] [ERROR] at loadPlugin (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2739:7)
+22-07-2020 16:26:41.225 [js] [ERROR] at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2760:3
+22-07-2020 16:26:41.225 [js] [ERROR] at Array.forEach (<anonymous>)
+22-07-2020 16:26:41.225 [js] [ERROR] at Object.<anonymous> (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2749:14)
+22-07-2020 16:26:41.225 [js] [ERROR] at Module._compile (internal/modules/cjs/loader.js:1138:30)
+22-07-2020 16:26:41.225 [js] [ERROR] at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+22-07-2020 16:26:41.225 [js] [ERROR] at Module.load (internal/modules/cjs/loader.js:986:32)
+22-07-2020 16:26:41.225 [js] [ERROR] at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+22-07-2020 16:26:41.225 [js] [ERROR] at Module.require (internal/modules/cjs/loader.js:1026:19)
+22-07-2020 16:26:41.225 [js] [ERROR] at require (internal/modules/cjs/helpers.js:72:18)
+22-07-2020 16:26:41.225 [js] [ERROR] at loadPlugin (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2743:13)
+22-07-2020 16:26:41.225 [js] [ERROR] at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2760:3
+22-07-2020 16:26:41.225 [js] [ERROR] at Array.forEach (<anonymous>)
+22-07-2020 16:26:41.225 [js] [ERROR] at Object.<anonymous> (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2749:14)
+22-07-2020 16:26:41.225 [js] [ERROR] at Module._compile (internal/modules/cjs/loader.js:1138:30)
+22-07-2020 16:26:41.225 [js] [ERROR] at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+22-07-2020 16:26:41.225 [js] [ERROR] at Module.load (internal/modules/cjs/loader.js:986:32)
+22-07-2020 16:26:41.225 [js] [ERROR] at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+22-07-2020 16:26:41.225 [js] [ERROR] at Module.require (internal/modules/cjs/loader.js:1026:19)
+22-07-2020 16:26:41.225 [js] [ERROR] at require (internal/modules/cjs/helpers.js:72:18)
+22-07-2020 16:26:42.443 [Gauge] [INFO] # Testing Todo Frontend
+22-07-2020 16:26:42.457 [Gauge] [INFO] ## Test functionalities
+22-07-2020 16:26:42.464 [Gauge] [DEBUG] * Add element to the todo list
+22-07-2020 16:26:42.895 [Gauge] [DEBUG] * Add element below to the other items
+22-07-2020 16:26:43.286 [Gauge] [DEBUG] * Check item
+22-07-2020 16:26:43.343 [Gauge] [DEBUG] * Uncheck item
+22-07-2020 16:26:43.394 [Gauge] [DEBUG] * Delete Item
+22-07-2020 16:26:43.842 [Gauge] [DEBUG] * Delete item 2
+22-07-2020 16:26:44.858 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-07-2020 16:26:44.891 [html-report] [INFO] Successfully generated html-report to => c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\reports\html-report\index.html
+22-07-2020 16:26:44.892 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\BerkayKarakoc\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+22-07-2020 16:26:44.892 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-07-2020 16:26:45.097 [Gauge] [DEBUG] Runner with PID:7484 has exited
+22-07-2020 16:26:45.097 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+22-07-2020 16:26:45.097 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22-07-2020 16:26:45.097 [Gauge] [INFO] 
+Total time taken: 4.985s
+22-07-2020 16:27:35.856 [Gauge] [DEBUG] Created gauge_screenshots_dir at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\.gauge\screenshots
+22-07-2020 16:27:35.858 [Gauge] [DEBUG] Plugin html-report is already installed.
+22-07-2020 16:27:35.858 [Gauge] [DEBUG] Plugin js is already installed.
+22-07-2020 16:27:35.859 [Gauge] [DEBUG] Parsing started.
+22-07-2020 16:27:35.859 [Gauge] [DEBUG] Started concepts parsing.
+22-07-2020 16:27:36.184 [Gauge] [DEBUG] Checking updates...
+22-07-2020 16:27:36.186 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:27:36.692 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:27:36.882 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+22-07-2020 16:27:38.216 [Gauge] [DEBUG] 0 concepts parsing completed.
+22-07-2020 16:27:38.217 [Gauge] [DEBUG] Started specifications parsing.
+22-07-2020 16:27:38.217 [Gauge] [DEBUG] 1 specifications parsing completed.
+22-07-2020 16:27:38.217 [Gauge] [DEBUG] Parsing completed.
+22-07-2020 16:27:38.755 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55256
+22-07-2020 16:27:38.758 [Gauge] [DEBUG] Successfully made the connection with runner with port: 55256
+22-07-2020 16:27:38.758 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:27:38.779 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:27:38.780 [Gauge] [DEBUG] Run started
+22-07-2020 16:27:38.781 [Gauge] [DEBUG] Starting Html Report plugin
+22-07-2020 16:27:38.805 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55259
+22-07-2020 16:27:38.807 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 55259
+22-07-2020 16:27:38.807 [Gauge] [DEBUG] Initialising suite data store.
+22-07-2020 16:27:40.054 [js] [ERROR] Trace: TypeError: init is not a function
+22-07-2020 16:27:40.054 [js] [ERROR] at loadPlugin (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2739:7)
+22-07-2020 16:27:40.054 [js] [ERROR] at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2760:3
+22-07-2020 16:27:40.054 [js] [ERROR] at Array.forEach (<anonymous>)
+22-07-2020 16:27:40.054 [js] [ERROR] at Object.<anonymous> (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2749:14)
+22-07-2020 16:27:40.054 [js] [ERROR] at Module._compile (internal/modules/cjs/loader.js:1138:30)
+22-07-2020 16:27:40.054 [js] [ERROR] at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+22-07-2020 16:27:40.054 [js] [ERROR] at Module.load (internal/modules/cjs/loader.js:986:32)
+22-07-2020 16:27:40.054 [js] [ERROR] at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+22-07-2020 16:27:40.054 [js] [ERROR] at Module.require (internal/modules/cjs/loader.js:1026:19)
+22-07-2020 16:27:40.054 [js] [ERROR] at require (internal/modules/cjs/helpers.js:72:18)
+22-07-2020 16:27:40.054 [js] [ERROR] at loadPlugin (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2743:13)
+22-07-2020 16:27:40.054 [js] [ERROR] at c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2760:3
+22-07-2020 16:27:40.054 [js] [ERROR] at Array.forEach (<anonymous>)
+22-07-2020 16:27:40.054 [js] [ERROR] at Object.<anonymous> (c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\node_modules\taiko\lib\taiko.js:2749:14)
+22-07-2020 16:27:40.054 [js] [ERROR] at Module._compile (internal/modules/cjs/loader.js:1138:30)
+22-07-2020 16:27:40.054 [js] [ERROR] at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+22-07-2020 16:27:40.054 [js] [ERROR] at Module.load (internal/modules/cjs/loader.js:986:32)
+22-07-2020 16:27:40.054 [js] [ERROR] at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+22-07-2020 16:27:40.054 [js] [ERROR] at Module.require (internal/modules/cjs/loader.js:1026:19)
+22-07-2020 16:27:40.054 [js] [ERROR] at require (internal/modules/cjs/helpers.js:72:18)
+22-07-2020 16:27:41.092 [Gauge] [INFO] # Testing Todo Frontend
+22-07-2020 16:27:41.105 [Gauge] [INFO] ## Test functionalities
+22-07-2020 16:27:41.112 [Gauge] [DEBUG] * Add element to the todo list
+22-07-2020 16:27:41.496 [Gauge] [DEBUG] * Add element below to the other items
+22-07-2020 16:27:41.832 [Gauge] [DEBUG] * Check item
+22-07-2020 16:27:41.916 [Gauge] [DEBUG] * Uncheck item
+22-07-2020 16:27:41.993 [Gauge] [DEBUG] * Delete Item
+22-07-2020 16:27:42.450 [Gauge] [DEBUG] * Delete item 2
+22-07-2020 16:27:43.614 [html-report] [DEBUG] Transformed SuiteResult to report structure
+22-07-2020 16:27:43.641 [html-report] [INFO] Successfully generated html-report to => c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\reports\html-report\index.html
+22-07-2020 16:27:43.641 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\BerkayKarakoc\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+22-07-2020 16:27:43.641 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+22-07-2020 16:27:43.846 [Gauge] [DEBUG] Runner with PID:18836 has exited
+22-07-2020 16:27:43.846 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+22-07-2020 16:27:43.846 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+22-07-2020 16:27:43.846 [Gauge] [INFO] 
+Total time taken: 4.833s

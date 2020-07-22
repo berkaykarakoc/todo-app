@@ -619,3 +619,161 @@ c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec:10 Step 
 22-07-2020 15:32:58.259 [Gauge] [DEBUG] Validation started.
 22-07-2020 15:33:00.446 [Gauge] [DEBUG] Validation started.
 22-07-2020 15:33:02.651 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:56:50.839 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:56:53.414 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:56:55.954 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:56:58.464 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:56:58.466 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:00.955 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:00.956 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:03.008 [Gauge] [DEBUG] request #691: textDocument/codeLens: failed to parse c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec:10 Step should not be blank
+22-07-2020 15:57:03.102 [Gauge] [DEBUG] request #693: textDocument/documentSymbol: parsing failed for c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec. [[ParseError] c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec:10 Step should not be blank => '']
+22-07-2020 15:57:03.401 [Gauge] [DEBUG] request #696: textDocument/codeLens: failed to parse c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec:10 Step should not be blank
+22-07-2020 15:57:03.994 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:03.997 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:05.185 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:05.187 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:07.735 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:07.737 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:11.116 [Gauge] [DEBUG] request #709: textDocument/codeLens: failed to parse c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec:11 Step should not be blank
+22-07-2020 15:57:11.658 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:11.660 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:13.007 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:13.010 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:15.574 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:15.577 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:17.192 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:17.195 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:18.583 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:18.587 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:21.236 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:21.242 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:22.304 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:22.307 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:22.936 [Gauge] [DEBUG] request #736: textDocument/codeLens: failed to parse c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec:13 Step should not be blank
+22-07-2020 15:57:23.425 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:23.429 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:24.609 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:24.613 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:27.011 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:27.016 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:29.839 [Gauge] [DEBUG] request #749: textDocument/codeLens: failed to parse c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec:14 Step should not be blank
+22-07-2020 15:57:30.387 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:30.390 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:57:31.766 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:31.772 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:34.315 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:34.323 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:41.419 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:41.424 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:43.854 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:43.859 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:46.695 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:46.703 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:49.283 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:49.288 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:53.195 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:53.204 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:55.550 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:55.556 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:57:57.899 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:57:57.905 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:59:14.075 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:59:14.079 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:59:14.135 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:59:14.138 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:59:14.920 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:59:14.922 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:59:16.248 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:59:16.253 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:59:16.557 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:59:16.559 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:59:18.464 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:59:18.469 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:59:20.643 [Gauge] [DEBUG] Validation started.
+22-07-2020 15:59:20.646 [Gauge] [DEBUG] Validation completed.
+22-07-2020 15:59:22.378 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 15:59:22.380 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 16:06:18.742 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:06:18.748 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:07:56.361 [Gauge] [INFO] Spec file removed: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 16:07:56.361 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:07:56.363 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:07:59.086 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:07:59.091 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:08:01.347 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:08:01.354 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:09:52.592 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:09:52.599 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:09:54.035 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:09:54.042 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:09:54.343 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:09:54.347 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:09:55.728 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:09:55.731 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:09:56.336 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:09:56.339 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:09:56.494 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:09:56.503 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:09:58.869 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:09:58.874 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:00.063 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:00.066 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:01.284 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:01.289 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:03.570 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:03.575 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:11.341 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:11.344 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:11.908 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:11.911 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:12.958 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:12.963 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:12.982 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:12.988 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:13.851 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:13.854 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:15.397 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:15.404 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:17.655 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:17.660 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:25.542 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:25.545 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:26.194 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:26.197 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:26.452 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:26.455 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:27.597 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:27.604 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:30.589 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:30.595 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:52.570 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:52.573 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:53.592 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:53.594 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:10:54.035 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:54.041 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:10:56.363 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:10:56.369 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:11:35.196 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:11:35.199 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:11:59.127 [Gauge] [INFO] Spec file removed: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\ui.spec
+22-07-2020 16:11:59.128 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 16:11:59.129 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 16:12:02.035 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:12:02.040 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:12:04.330 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:12:04.339 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:12:04.426 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 16:12:04.429 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 16:12:34.072 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 16:12:34.077 [Gauge] [INFO] Spec file added / modified: c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec
+22-07-2020 16:12:36.016 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:12:36.022 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:12:38.732 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:12:38.738 [Gauge] [DEBUG] Validation completed.
