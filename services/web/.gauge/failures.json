@@ -1,0 +1,8 @@
+{
+	"Args": [
+		"run",
+		"--simple-console",
+		"--hide-suggestion"
+	],
+	"FailedItems": []
+}
