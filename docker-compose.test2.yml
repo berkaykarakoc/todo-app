@@ -18,10 +18,9 @@ services:
     environment:
       - NODE_ENV=test
       - DATABASE_NAME=todoapp-test
-      - DATABASE_URL=localhost:27017
+      - DATABASE_URL=mongo
     depends_on:
       - mongo
-    env_file: .env
     networks:
       - todo-network
 
