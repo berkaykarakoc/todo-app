@@ -1,7 +1,7 @@
-image: node:latest
-
 services:
+  - node:latest
   - mongo:latest
+  - docker:latest
 
 front_test:
   script:
@@ -23,7 +23,6 @@ backend_test:
   - npm test
   - echo "Test for backend completed"
 dockerize:
-  image: docker:latest
   script:
   - echo "Dockerizing"
   - docker-compose build
