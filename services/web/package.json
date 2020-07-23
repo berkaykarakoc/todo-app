@@ -10,8 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "taiko": "^1.0.14",
-    "taiko-react": "^0.3.3"
+    "taiko": "^1.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
