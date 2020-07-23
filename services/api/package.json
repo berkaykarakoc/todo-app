@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=dev DATABASE_NAME=todoapp-dev DATABASE_URL=mongo node index.js",
     "test_front": "cross-env NODE_ENV=test DATABASE_NAME=todoapp-test DATABASE_URL=localhost:27017 node index.js",
-    "test_back": "cross-env NODE_ENV=test DATABASE_NAME=todoapp-test DATABASE_URL=localhost:27017 jest --forceExit --detectOpenHandles  --watchAll --maxWorkers=1"
+    "test_back": "cross-env NODE_ENV=test DATABASE_NAME=todoapp-test DATABASE_URL=localhost:27017 jest --forceExit --detectOpenHandles --maxWorkers=1"
   },
   "author": "",
   "license": "ISC",
