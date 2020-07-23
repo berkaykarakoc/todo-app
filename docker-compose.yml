@@ -6,15 +6,12 @@ services:
       - 27017:27017
     volumes:
       - todo-data:/data/db
-    env_file: .env
-    container_name: todo-db
     networks:
       - todo-network
   api:
     build: ./services/api
     ports:
       - 3001:3001
-    env_file: .env
     container_name: todo-api
     depends_on:
       - mongo

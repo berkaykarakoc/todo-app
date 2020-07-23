@@ -777,3 +777,20 @@ c:\Users\BerkayKarakoc\Desktop\todo-app\services\web\specs\example.spec:14 Step 
 22-07-2020 16:12:36.022 [Gauge] [DEBUG] Validation completed.
 22-07-2020 16:12:38.732 [Gauge] [DEBUG] Validation started.
 22-07-2020 16:12:38.738 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:23:00.208 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:23:00.214 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:23:42.505 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:23:42.510 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:23:46.765 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:23:46.771 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:23:51.076 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:23:51.082 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:23:58.925 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:23:58.933 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:26:12.342 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:26:12.349 [Gauge] [DEBUG] Validation completed.
+22-07-2020 16:26:28.750 [Gauge] [DEBUG] Validation started.
+22-07-2020 16:26:28.755 [Gauge] [DEBUG] Validation completed.
+22-07-2020 17:23:32.194 [Gauge] [DEBUG] Runner with PID:7768 has exited
+22-07-2020 17:23:32.216 [Gauge] [INFO] Connection closed
+22-07-2020 17:23:32.216 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
