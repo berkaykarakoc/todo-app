@@ -15,6 +15,7 @@ services:
     container_name: todo-api
     depends_on:
       - mongo
+    env_file: .env
     networks:
       - todo-network
 
