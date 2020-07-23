@@ -5,7 +5,7 @@ const Todo = require("../models/Todo.js");
 const { setupDB } = require("./test-setup");
 
 // Setup a Test Database
-setupDB(process.env.TEST_DATABASE);
+setupDB(process.env.DATABASE_NAME);
 
 // Continue with your tests...
 
