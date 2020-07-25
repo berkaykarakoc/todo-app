@@ -38,6 +38,17 @@ services:
     networks:
       - todo-network
 
+  web-test:
+    build: 
+      context: ./services/web
+      dockerfile: Dockerfile.test
+    container_name: todo-web-test
+    depends_on: 
+      - web
+      command: bash -c "/usr/wait-for-it.sh --timeout=0 web:3000 && 
+    networks:
+      - todo-network
+
 volumes:  
   todo-data:
 
