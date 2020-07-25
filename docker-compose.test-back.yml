@@ -18,7 +18,7 @@ services:
     container_name: todo-api
     environment:
       - NODE_ENV=test
-      - DATABASE_NAME=todoapp-test
+      - DATABASE_NAME=todoapp-test-back
       - DATABASE_URL=mongodb
     depends_on:
       - mongodb
