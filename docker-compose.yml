@@ -6,6 +6,7 @@ services:
       - 27017:27017
     volumes:
       - todo-data:/data/db
+    container_name: mongodb
     networks:
       - todo-network
   api:

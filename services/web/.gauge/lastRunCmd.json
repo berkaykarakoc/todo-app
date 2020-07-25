@@ -1,7 +1,5 @@
 [
-	"gauge",
+	"C:\\Users\\BerkayKarakoc\\Desktop\\todo-app\\services\\web\\node_modules\\.bin\\\\..\\@getgauge\\cli\\bin\\gauge",
 	"run",
-	"c:\\Users\\BerkayKarakoc\\Desktop\\todo-app\\services\\web\\specs\\example.spec",
-	"--simple-console",
-	"--hide-suggestion"
+	"specs/"
 ]

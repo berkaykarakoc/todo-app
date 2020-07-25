@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev DATABASE_NAME=todoapp-dev DATABASE_URL=mongo nohup node index.js",
-    "test_front": "cross-env NODE_ENV=test DATABASE_NAME=todoapp-test DATABASE_URL=localhost:27017 nohup node index.js",
-    "test_back": "cross-env NODE_ENV=test DATABASE_NAME=todoapp-test DATABASE_URL=localhost:27017 jest --forceExit --detectOpenHandles --maxWorkers=1"
+    "start": "cross-env NODE_ENV=dev DATABASE_URL=localhost:27017 DATABASE_NAME=todoapp node index.js",
+    "test_front": "cross-env NODE_ENV=test DATABASE_URL=localhost:27017 DATABASE_NAME=todoapp-test-front node index.js",
+    "test_back": "cross-env NODE_ENV=test DATABASE_URL=localhost:27017 DATABASE_NAME=todoapp-test-back jest --forceExit --detectOpenHandles --maxWorkers=1"
   },
   "author": "",
   "license": "ISC",

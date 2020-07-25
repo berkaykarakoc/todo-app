@@ -3,9 +3,10 @@ const app = require("..");
 const Todo = require("../models/Todo.js");
 
 const { setupDB } = require("./test-setup");
+const server = require("../server/server");
 
 // Setup a Test Database
-setupDB(process.env.DATABASE_NAME);
+setupDB();
 
 // Continue with your tests...
 
@@ -23,10 +24,6 @@ test("should get all todos", async () => {
     const res2 = await request(app).get("/api/todos");
     expect(res2.statusCode).toEqual(200);
     expect(res2.body.length).toEqual(1);
-
-    const res3 = await request(app).get("/api/todos").send({});
-    expect(res3.statusCode).toEqual(400);
-    expect(res3.body).toEqual("unable to get todos");
 });
 
 test("should get a todo", async () => {
