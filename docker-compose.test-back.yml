@@ -12,29 +12,16 @@ services:
   api:
     build: 
       context: ./services/api
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile.test-back
     ports:
       - 3001:3001
     container_name: todo-api
     environment:
-      - NODE_ENV=dev
-      - DATABASE_NAME=todoapp-dev
+      - NODE_ENV=test
+      - DATABASE_NAME=todoapp-test
       - DATABASE_URL=mongodb
     depends_on:
       - mongodb
-    networks:
-      - todo-network
-
-  web:
-    build: 
-      context: ./services/web
-      dockerfile: Dockerfile.dev
-    ports:
-      - 3000:3000
-    container_name: todo-web
-    stdin_open: true
-    links:
-      - api
     networks:
       - todo-network
 
