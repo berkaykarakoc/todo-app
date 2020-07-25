@@ -45,6 +45,8 @@ services:
     container_name: todo-web-test
     depends_on: 
       - web
+    links:
+      - web
     networks:
       - todo-network
 
