@@ -45,8 +45,7 @@ services:
     container_name: todo-web-test
     depends_on: 
       - web
-    links:
-      - web
+    command: ["./wait-for-it.sh", "web:3000", "--", "python", "app.py"]
     networks:
       - todo-network
 
