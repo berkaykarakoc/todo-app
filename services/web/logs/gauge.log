@@ -2723,3 +2723,42 @@ ErrorMessage: transport is closing
 25-07-2020 12:34:19.235 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
 25-07-2020 12:34:19.236 [Gauge] [INFO] 
 Total time taken: 3.597s
+26-07-2020 14:02:20.421 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\BerkayKarakoc\Desktop\todo-app\services\web\.gauge\screenshots
+26-07-2020 14:02:20.439 [Gauge] [DEBUG] Plugin js is already installed.
+26-07-2020 14:02:20.446 [Gauge] [DEBUG] Plugin html-report is already installed.
+26-07-2020 14:02:20.447 [Gauge] [DEBUG] Parsing started.
+26-07-2020 14:02:20.447 [Gauge] [DEBUG] Started concepts parsing.
+26-07-2020 14:02:21.226 [Gauge] [DEBUG] Checking updates...
+26-07-2020 14:02:21.228 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+26-07-2020 14:02:21.986 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+26-07-2020 14:02:22.203 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=js&p=html-report,js,screenshot&o=windows&a=amd64
+26-07-2020 14:02:24.030 [Gauge] [DEBUG] 0 concepts parsing completed.
+26-07-2020 14:02:24.030 [Gauge] [DEBUG] Started specifications parsing.
+26-07-2020 14:02:24.036 [Gauge] [DEBUG] 1 specifications parsing completed.
+26-07-2020 14:02:24.036 [Gauge] [DEBUG] Parsing completed.
+26-07-2020 14:02:24.592 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49351
+26-07-2020 14:02:24.596 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49351
+26-07-2020 14:02:24.596 [Gauge] [DEBUG] Validation started.
+26-07-2020 14:02:24.615 [Gauge] [DEBUG] Validation completed.
+26-07-2020 14:02:24.615 [Gauge] [DEBUG] Run started
+26-07-2020 14:02:24.617 [Gauge] [DEBUG] Starting Html Report plugin
+26-07-2020 14:02:25.253 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49354
+26-07-2020 14:02:25.255 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49354
+26-07-2020 14:02:25.255 [Gauge] [DEBUG] Initialising suite data store.
+26-07-2020 14:02:26.935 [Gauge] [INFO] # Testing Todo Frontend
+26-07-2020 14:02:26.946 [Gauge] [INFO] ## Test functionalities
+26-07-2020 14:02:26.953 [Gauge] [DEBUG] * Add element to the todo list
+26-07-2020 14:02:27.300 [Gauge] [DEBUG] * Add element below to the other items
+26-07-2020 14:02:27.637 [Gauge] [DEBUG] * Check item
+26-07-2020 14:02:27.720 [Gauge] [DEBUG] * Uncheck item
+26-07-2020 14:02:27.796 [Gauge] [DEBUG] * Delete Item
+26-07-2020 14:02:28.214 [Gauge] [DEBUG] * Delete item 2
+26-07-2020 14:02:29.220 [html-report] [DEBUG] Transformed SuiteResult to report structure
+26-07-2020 14:02:29.300 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+26-07-2020 14:02:29.300 [html-report] [INFO] Successfully generated html-report to => C:\Users\BerkayKarakoc\Desktop\todo-app\services\web\reports\html-report\index.html
+26-07-2020 14:02:29.300 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\BerkayKarakoc\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+26-07-2020 14:02:29.505 [Gauge] [DEBUG] Runner with PID:18332 has exited
+26-07-2020 14:02:29.506 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+26-07-2020 14:02:29.507 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+26-07-2020 14:02:29.515 [Gauge] [INFO] 
+Total time taken: 4.603s
