@@ -1,11 +1,9 @@
 #!/bin/bash
 
 echo "Waiting for localhost:3000..."
-for i in 1 2 3 4 5; do
-    echo $i
-    if [ ! nc -z localhost 3000 ]; then
-        sleep 2
-    fi
+
+while ! nc -z localhost 3000; do   
+  sleep 0.1 # wait for 1/10 of the second before check again
 done
 
 echo "Connected"
