@@ -16,7 +16,13 @@ const {
 const assert = require("assert");
 
 beforeSuite(async () => {
-    await openBrowser();
+    await openBrowser({args: [
+        '--disable-gpu',
+         '--disable-dev-shm-usage',
+         '--disable-setuid-sandbox',
+         '--no-first-run',
+         '--no-sandbox',
+         '--no-zygote']});
     await goto("http://localhost:3000");
 });
 
