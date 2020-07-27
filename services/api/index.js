@@ -11,8 +11,4 @@ if (process.env.DATABASE_NAME !== "todoapp-test-back") {
     });
 }
 
-if (process.env.DATABASE_NAME === "todoapp-test-front") {
-    setTimeout(() => process.exit(1), 100000);
-}
-
 module.exports = server;
